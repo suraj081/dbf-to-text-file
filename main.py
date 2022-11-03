@@ -7,7 +7,7 @@ pd.set_option('display.max_colwidth', 1000)
 pd.set_option('expand_frame_repr', False)
 from simpledbf import Dbf5
 import glob
-for file in glob.glob(directory\*.dbf"):
+for file in glob.glob(input-directory\*.dbf"):
 	if file.endswith('.dbf'):
 		print(file)
 		df=Dbf5(file)
